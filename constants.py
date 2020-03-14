@@ -1,4 +1,9 @@
-BASE_URL='https://api.binance.com/api/v3/'
-TICKER24_URL=BASE_URL+'ticker/24hr'
-BASE_STREAM_URL='wss://stream.binance.com:9443/ws/'
-MARKETTICKER_STREAM=BASE_STREAM_URL+'!ticker@arr'
+BASE_URL = 'https://api.binance.com/api/v3/'
+TICKER24_URL = BASE_URL + 'ticker/24hr'
+BASE_STREAM_URL = 'wss://stream.binance.com:9443/ws/'
+MARKETTICKER_STREAM = BASE_STREAM_URL + '!ticker@arr'
+API_KEY = "tfjO7pX2wEFog1oza70n9jQg5BvaNTPXOL6pKeL0zTQ2XRCN0msdfnf8dfRK9WII"
+SECRET_KEY = 'BrbKKGutf7IIpsrpxHDsvhtGqsSm0dUij4iu7Z1ZvElBVLBRMszvIBwzZlWEgwDv'
+USER_KEY = BASE_STREAM_URL + API_KEY
+OPEN_ORDERS = BASE_URL + "/api/v3/openOrders"
+ACCOUNT_INFORMATION = BASE_URL + "/api/v3/account"
